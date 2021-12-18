@@ -1,0 +1,12 @@
+<h2>Grafica Barras</h2>
+<hr />
+<div class="mb-3">
+  <canvas
+    baseChart
+    [data]="barChartData"
+    [options]="barChartOptions"
+    [type]="barChartType"
+  >
+  </canvas>
+</div>
+<button class="btn btn-primary" (click)="randomize()">Actualizar</button>
